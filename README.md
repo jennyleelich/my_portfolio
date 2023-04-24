@@ -7,4 +7,5 @@ It is the Dynamic Website based on (Cloudfront, S3, Lambda, SES - Simple Email S
 
 Please feel free to visit and leave a comment, I can get your message and reply you shortly, thanks
 
-© 2023, Li's Family - All rights reserved.
+---
+&copy; 2023, [Li's Family](http://www.luv2code.com) - All rights reserved.
