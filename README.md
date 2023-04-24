@@ -1,5 +1,5 @@
 # my_portfolio
-chunhua li's personal website
+Chunhua Li's personal website
 
 Hosted on AWS cloud https://d3jbwtno2fihos.cloudfront.net/
 
