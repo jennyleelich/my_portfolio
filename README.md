@@ -1,8 +1,8 @@
 # my_portfolio
 chunhua li's personal website
 
-Hosted on AWS cloud http://chunhua.li.chen.com.s3-website.us-east-2.amazonaws.com
+Hosted on AWS cloud https://d3jbwtno2fihos.cloudfront.net/
 
-It is the Dynamic Website based on (S3, Lambda, API Gateway, JavaScript, SES, HTML)
+It is the Dynamic Website based on (Cloudfront, S3, Lambda, SES - Simple Email Service, API Gateway, JavaScript, HTML)
 
 Please feel free to visit and leave a comment, I can get your message and reply you shortly, thanks
