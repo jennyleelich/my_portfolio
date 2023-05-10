@@ -174,7 +174,7 @@ ul
     align-items: center;
     z-index: 10;
     transition: all 0.3s ease;
-    min-height: 900px;
+    min-height: 750px;
 }
 .aside .logo
 {
@@ -905,4 +905,56 @@ h3.my-profession
     background: #666666;
     color: #ffffff;
   }
+
+  .portfolio-img img:hover{
+    transform: scale(1.1)
+  }
+
+  .popup-image {
+    position: fixed;
+    top:0; left: 300px;
+    background: rgba(0,0,0,.9);
+    height:100%;
+    width:100%;
+    z-index: 100;
+    display: none;
+  }
+
+  .popup-image span {
+    position: absolute;
+    top:15px; right:400px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .popup-image img {
+    position: absolute;
+    top: 50%; left: 40%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width: 950px;
+    object-fit: cover;
+
+  }
+
+  @media(max-width: 1199px) {
+    .popup-image {
+        position: fixed;
+        top:0; left: 0px;
+      }
+    .popup-image img {
+        width: 80%;
+   
+        top:50%;
+        left: 50%
+    }
+    .popup-image span {
+        right:50px;
+    }
+  }
+  
   

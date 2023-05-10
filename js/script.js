@@ -1,6 +1,6 @@
 /* ============================== typing animation ============================ */
 var typed = new Typed(".typing",{
-    strings:["","Web Developer","Modern Spring Angular Architect","AWS Cloud Supporter","Web Accessibility Solution"],
+    strings:["","Senior Web Developer"],
     typeSpeed:100,
     BackSpeed:60,
     loop:true
@@ -133,6 +133,20 @@ const nav = document.querySelector(".nav"),
      event.preventDefault();
      window.location.href="uploads/lichunhua.docx"
   })
+
+ 
+    document.querySelectorAll('.portfolio-img img').forEach(image => {
+        image.onclick = () => {
+            $(".popup-image").attr("style", 'display:block');
+            $(".popup-image img").attr("src", image.getAttribute('src'));
+        }
+    })
+
+    document.querySelector('.popup-image span').onclick = () => {
+        $(".popup-image").attr("style", 'display:none');
+    }
+
+ 
       
 
 
