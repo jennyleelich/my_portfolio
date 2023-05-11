@@ -932,13 +932,23 @@ h3.my-profession
 
   .popup-image img {
     position: absolute;
-    top: 50%; left: 40%;
+    top: 50%;
+    left: 28%;
     transform: translate(-50%, -50%);
     border: 5px solid #fff;
     border-radius: 5px;
-    width: 950px;
+    width: 45vw;
     object-fit: cover;
 
+  }
+
+  .popup-image p {
+    position: absolute;
+    top: 40%;
+    right: 18%;
+    width: 18%;
+    color: white;
+    transform: translate(-50%, -40%);
   }
 
   @media(max-width: 1199px) {
@@ -947,14 +957,23 @@ h3.my-profession
         top:0; left: 0px;
       }
     .popup-image img {
-        width: 80%;
-   
-        top:50%;
-        left: 50%
+        width: 60%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-72%, -60%);
     }
     .popup-image span {
         right:50px;
     }
+    .popup-image p {
+        position: absolute;
+        top: 40%;
+        right: 1%;
+        width: 18%;
+        color: white;
+        transform: translate(-50%, -40%);
+    
+      }
   }
   
   

@@ -139,6 +139,7 @@ const nav = document.querySelector(".nav"),
         image.onclick = () => {
             $(".popup-image").attr("style", 'display:block');
             $(".popup-image img").attr("src", image.getAttribute('src'));
+            $(".popup-image p").html(image.getAttribute('alt'));
         }
     })
 
