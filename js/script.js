@@ -131,7 +131,7 @@ const nav = document.querySelector(".nav"),
         }
   $(".downloadResume").click((event) => {
      event.preventDefault();
-     window.location.href="uploads/lichunhua.docx"
+     window.location.href="uploads/lichunhua.pdf"
   })
 
  
